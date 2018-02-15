@@ -1,5 +1,5 @@
-var Component = require("../index.js").Component;
-var assert = require ("chai").assert;
+var Component = require("../index.js");
+var assert = require("chai").assert;
 
 describe("component", function() {
     it("has init", function() {
@@ -13,5 +13,8 @@ describe("component", function() {
     it("has shutdown");
     it("returns empty dependency list");
     it("errors on config");
-    it("has version");
+    it("has version", function() {
+        var c = new Component();
+        assert.strictEqual(c.componentVersion, "0.8.0");
+    });
 });
