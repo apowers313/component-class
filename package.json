@@ -1,7 +1,7 @@
 {
   "name": "component-class",
-  "version": "0.8.0",
-  "description": "YOUR DESCRIPTION HERE",
+  "version": "0.9.2",
+  "description": "A Component class to derive components from. Used with simple-component-manager.",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha",
