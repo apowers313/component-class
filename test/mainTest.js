@@ -1,3 +1,5 @@
+"use strict";
+
 var Component = require("../index.js");
 var assert = require("chai").assert;
 

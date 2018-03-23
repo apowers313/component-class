@@ -30,7 +30,7 @@ var dummyLogger = {
     }
 };
 
-describe ("cert tests", function() {
+describe ("TemplateComponentName", function() {
     var c;
     beforeEach(function() {
         c = new TemplateComponentName(dummyComponentManager);
