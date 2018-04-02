@@ -1,6 +1,6 @@
 {
   "name": "component-class",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "A Component class to derive components from. Used with simple-component-manager.",
   "main": "index.js",
   "scripts": {
