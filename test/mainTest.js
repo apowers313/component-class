@@ -28,7 +28,7 @@ describe("component", function() {
 
     it("has version", function() {
         var c = new Component(dummyComponentManager);
-        assert.strictEqual(c.componentVersion, "1.1.0");
+        assert.strictEqual(c.componentVersion, "2.0.0");
     });
 
     describe("init", function() {
