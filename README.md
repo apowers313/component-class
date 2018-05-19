@@ -2,4 +2,16 @@
 
 The class for building components for [simple-component-manager](https://github.com/apowers313/simple-component-manager).
 
-Documentation coming soon. See the template directory for a quick start.
+## Install
+
+``` bash
+npm install component-class
+```
+
+## Overview
+This is the base class for Components to be used by Simple Component Manager. It includes the ability to define dependencies on other components (guaranteeing that they exist and are initialized first) as well as defining features on the Component that can be used to configure, set parameters, or otherwise manipulate the component.
+
+Documentation can be found here (coming soon).
+
+## Example
+See the template directory for an example.
